@@ -4,62 +4,70 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-  <link href="./assets/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <title>Blog - Codelandia</title>
 </head>
 <body>
-  <header>
-      <nav>
-        <a>Codelandia</a>
-        <a>blog</a>
-        <input type="search" placeholder="Pesquisar no blog">
+  <header class="header">
+    <div class="header-div">
+      <nav class="header-nav">
+        <a class="header-nav-item">Codelandia</a>
+        <a class="header-nav-item">blog</a>
       </nav>
+      <form class="form-input-search" action="/" method="post">
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+        <input type="text" placeholder="Pesquisar no blog">
+      </form>
+    </div>
   </header>
-  <main>
-      <section>
-        <div>
-          <p>19 de jan, 2022</p>
-          <i class="fa-thin fa-heart"></i>
+  <main class="main">
+      <section class="main-section">
+        <div class="main-section-primary">
+          <p class="date">19 de jan, 2022</p>
+          <i style="color: #574ae8;" class="far fa-heart"></i>
         </div>
-        <div>
-          <h2>Agora é oficial: o Windowns 11 está vindo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
+        <div class="main-section-secundary">
+          <h2 class="main-section-title">Agora é oficial: o Windowns 11 está vindo</h2>
+          <p class="main-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
         </div>
       </section>
-      <section>
-        <div>
-          <p>19 de jan, 2022</p>
-          <i class="fa-thin fa-heart"></i>
+      <section class="main-section">
+        <div class="main-section-primary">
+          <p class="date">19 de jan, 2022</p>
+          <i style="color: #574ae8;" class="far fa-heart"></i>
         </div>
-        <div>
+        <div class="main-section-secundary">
           <h2>Tim Berners-Lee vai leiolar código fonte da web</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
         </div>
       </section>
-      <section>
-        <div>
-          <p>19 de jan, 2022</p>
-          <i class="fa-thin fa-heart"></i>
+      <section class="main-section">
+        <div class="main-section-primary">
+          <p class="date">19 de jan, 2022</p>
+          <i style="color: #574ae8;" class="far fa-heart"></i>
         </div>
-        <div>
-          <h2>Tem firefox novo no pedaço e você vai querer migrar</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum.</p>
+        <div class="main-section-secundary">
+          <h2 class="main-section-title">Tem firefox novo no pedaço e você vai querer migrar</h2>
+          <p class="main-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum.</p>
         </div>
       </section>
-      <section>
-        <div>
-          <p>19 de jan, 2022</p>
-          <i class="fa-thin fa-heart"></i>
+      <section class="main-section">
+        <div class="main-section-primary">
+          <p class="date">19 de jan, 2022</p>
+          <i style="color: #574ae8;" class="far fa-heart"></i>
         </div>
-        <div>
-          <h2>John MacAfee, criador do antivírus MacAfee, morre</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
+        <div class="main-section-secundary">
+          <h2 class="main-section-title">John MacAfee, criador do antivírus MacAfee, morre</h2>
+          <p class="main-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
         </div>
       </section>
   </main>
   <footer>
 
   </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
