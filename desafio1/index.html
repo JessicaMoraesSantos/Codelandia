@@ -40,8 +40,8 @@
           <i style="color: #574ae8;" class="far fa-heart"></i>
         </div>
         <div class="main-section-secundary">
-          <h2>Tim Berners-Lee vai leiolar código fonte da web</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
+          <h2 class="main-section-title">Tim Berners-Lee vai leiolar código fonte da web</h2>
+          <p class="main-section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit dolore, perferendis voluptas harum fuga animi illo illum hic quis dolorem eveniet doloremque beatae provident maiores corrupti, et minima optio?</p>
         </div>
       </section>
       <section class="main-section">
@@ -69,5 +69,19 @@
 
   </footer>
   <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    const sr = ScrollReveal({
+      origin: 'top',
+      distance: '50px',
+      duration: 2000,
+      reset: true
+    });
+
+    ScrollReveal().reveal('.header-nav', { delay: 200 });
+    ScrollReveal().reveal('.date', { delay: 400 });
+    ScrollReveal().reveal('.main-section-title', { delay: 500 });
+    ScrollReveal().reveal('.main-section-text', { delay: 600 });
+  </script>
 </body>
 </html>
