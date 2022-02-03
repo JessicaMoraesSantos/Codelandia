@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,31 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Studio Ghibli</title>
 </head>
+
 <body>
     <header class="header">
         <img src="./assets/logo.svg" alt="Studio Ghibli">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
+        <div class="header-icons">
+            <img src="./assets/icon-facebook.svg">
+            <img src="./assets/icon-instagram.svg">
+            <img src="./assets/icon-twitter.svg">
+            <img src="./assets/icon-youtube.svg">
+        </div>
     </header>
     <main class="main">
         <div class="main-left">
-            <h3>Hayao Miyazaki</h3>
+            <h2>Hayao Miyazaki</h2>
             <h1>A viagem <br> de Chihiro</h1>
-            <h2>Chihiro chega a um mundo mágico dominado por <br>
-            um bruxa. Aqueles que a desobedecem são<br> 
-            transformados em animais.</h2>
+            <h3>Chihiro chega a um mundo mágico dominado por <br>
+                um bruxa. Aqueles que a desobedecem são<br>
+                transformados em animais.</h3>
             <div class="main-button">
-                <button class="button-film" type="button"><i class="fas fa-play"></i>Assistir agora</button>
-                <button class="button-trailer" type="button">Assistir o trailer</button>
+                <button class="button-film" type="button"><img src="./assets/icon-play.svg">
+                    <p>Assistir agora</p>
+                </button>
+                <button class="button-trailer" type="button">
+                    <p>Assistir o trailer</p>
+                </button>
             </div>
         </div>
         <div class="main-right">
@@ -34,4 +42,5 @@
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,11 +8,106 @@
 
 body {
     flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    gap: 540px;
+    align-items: center;
+    margin-top: 38px;
 }
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 18px;
+    color: #f9f9f9;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-left {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #f9f9f9;
+    padding: 0;
+    margin-left: 86px;
+}
+
+.main-left h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    padding-right: 0;
+}
+
+.main-left h1{
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 80px;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    padding-right: 0;
+}
+
+.main-left h3{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    text-transform:none;
+    padding-bottom: 54px;
+    padding-right: 0;
+}
+
+.main-left button {
+    height: 44px;
+    width: 224px;
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+}
+
+.button-film {
+    background-color: #658E76;
+    border: none;
+    transform: skew(-15deg);
+}
+
+.button-film p{
+    transform: skew(15deg);
+    padding: 0;
+}
+
+.button-trailer {
+    background-color: transparent;
+    border: solid 1px #658E76;
+    margin-left: 10px;
+    transform: skew(-15deg);
+}
+
+.button-trailer p{
+    transform: skew(15deg);
+    padding: 0;
+}
+
+.main-right {
+    padding: 0;
+}
+
