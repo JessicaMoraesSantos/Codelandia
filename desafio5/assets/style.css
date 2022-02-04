@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     flex-direction: column;
     width: 100%;
@@ -73,38 +77,48 @@ body {
     padding-right: 0;
 }
 
-.main-left button {
-    height: 44px;
-    width: 224px;
+.main-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     font-family: 'Poppins';
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
     text-transform: uppercase;
     color: #f9f9f9;
 }
 
-.button-film {
-    background-color: #658E76;
-    border: none;
-    transform: skew(-15deg);
+.main-link-film {
+    display: flex;
+    border: solid 2px #628E75;
+    background-color: #628E75;
+    padding: 12px 28px;
+    transform: skew(-25deg);
 }
 
-.button-film p{
-    transform: skew(15deg);
-    padding: 0;
+.main-link-film a{
+    display: flex;
+    align-items: center;
+    color: inherit;
+    transform: skew(25deg);
 }
 
-.button-trailer {
+.main-link-film a img{
+    margin: 0 10px 0 0;
+}
+
+.main-link-trailer {
+    display: flex;
+    border: solid 2px #628E75;
     background-color: transparent;
-    border: solid 1px #658E76;
-    margin-left: 10px;
-    transform: skew(-15deg);
+    padding: 12px 28px;
+    transform: skew(-25deg);
 }
 
-.button-trailer p{
-    transform: skew(15deg);
-    padding: 0;
+.main-link-trailer a{
+    color: inherit;
+    transform: skew(25deg);
 }
 
 .main-right {
